@@ -1,0 +1,23 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin: 100rpx 0;
+}
+
+.logo {
+  width: 80%;
+  height: 400rpx;
+}
+
+.form-register {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button-register {
+  margin-top: 60rpx;
+}

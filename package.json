@@ -1,0 +1,14 @@
+{
+  "name": "miniprogram-ts-less-quickstart",
+  "version": "1.0.0",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": ".eslintrc.js",
+  "description": "",
+  "dependencies": {
+    "tdesign-miniprogram": "^1.1.15",
+    "wechat-http": "^0.0.5"
+  }
+}

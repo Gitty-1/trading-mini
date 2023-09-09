@@ -1,0 +1,33 @@
+<view class="logo-container">
+  <image src="../../images/logo5.png" mode="widthFix" class="logo" />
+</view>
+<form class="form-login">
+  <t-input 
+  type="text"
+  placeholder="请输入用户名"
+  prefixIcon="user-circle"
+  class="input-login"
+  bindchange="changeAccount"
+  value="{{ form.username }}"
+  data-prop='username'
+  >
+  </t-input>
+  <t-input
+  type="password"
+  placeholder="请输入密码"
+  prefixIcon="lock-on"
+  class="input-login"
+  bindchange="changeAccount"
+  value="{{ form.password }}"
+  data-prop='password'
+  >
+  </t-input>
+  <t-button 
+  theme="primary" 
+  shape="round" 
+  class="button-login"
+  bindtap="handleFormSubmit"
+  >登录
+  </t-button>
+  <t-link theme="primary" size="small" content="立即注册" prefixIcon="link" hover class="link-login" bindtap="gotoRegister"/>
+</form>

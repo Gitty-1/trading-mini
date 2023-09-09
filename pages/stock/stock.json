@@ -1,0 +1,25 @@
+{
+  "usingComponents": {},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "/miniprogram/pages/stockTab/stockInfo",
+        "text": "首页",
+        "iconPath": "/miniprogram/images/home.png",
+        "selectedIconPath": "/miniprogram/images/home-active.png"
+      },
+      {
+        "pagePath": "/miniprogram/pages/stockTab/stockInfo",
+        "text": "首页",
+        "iconPath": "/miniprogram/images/home.png",
+        "selectedIconPath": "/miniprogram/images/home-active.png"
+      },
+      {
+        "pagePath": "/miniprogram/pages/stockTab/stockInfo",
+        "text": "首页",
+        "iconPath": "/miniprogram/images/home.png",
+        "selectedIconPath": "/miniprogram/images/home-active.png"
+      }
+    ]
+  }
+}
